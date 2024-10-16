@@ -22,7 +22,28 @@ Exercici 1: You Tube model
 Aquest model és una versió simplificada de la coneguda aplicació de visualització de videos.
 Relaciona els usuaris, els videos que penjen, els comentaris i valoracions que fan dels videos i dels comentaris de tercers. També permet gestionar canals d'usuari, playlists.
 
-
+---------------------------------------------------------------------
 Requisits tècnics
 
 Els diagrames i scripts s'han generat a partir del MySQL Workbench, versió 8.0.38 Community. Es pot descarregar des del vincle https://dev.mysql.com/downloads/installer/, seleccionant sistema operatiu i versió.
+
+Instal·lació: 
+1. Clonar el repositorio de Github
+git clone https://github.com/g-lemoing/mysql-estructura.git
+2. Abrir el MySql WorkBench y crear desde cero la base de datos:
+- ir a File > Import > Reverse Engineer MySQL Create script...
+- en Select SQL Script File: buscar el script que lleva el nombre del modelo con la extensión .sql (marcar la casilla "Place import objects on a diagram") y pulsar "Execute".
+- en el tab "Physical schemas" aparecen todas las tablas, y se abre también una pestaña del EER diagram con las relaciones entre tablas. 
+- En el tab de la instancia local, abrir File > Open SQL Script... y buscar el fichero acabado con _loaddata.sql para ejectuar todos los inserts y cargar la base de datos de muestra.
+- 
+
+Contribuciones:
+1. Crear un fork del repositorio: 
+2. Clonar el repositorio hacia el directorio local marcado por git bash
+ git clone https://github.com/YOUR-USERNAME/mysql-estructura.git
+3. Crear una rama
+git branch BRANCH-NAME
+git checkout BRANCH-NAME
+4. Realizar cambios o comentarios, y hacer un commit: git commit -m 'mensaje cambios'
+5. Subir cambios a tu nueva rama: git push origin BRANCH-NAME
+6. Hacer un pull request
