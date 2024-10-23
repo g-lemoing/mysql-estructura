@@ -9,7 +9,7 @@ Nivell 1
 Exercici 1: Optics_model
 
 Aquest model representa el negoci d'una òptica, i les seves relacions amb els seus clients, proveïdors.
-La gran majoria dels camps de les taules tenen la clàusula NOT NULL. S'han deixat uns quants sense aquesta marca perquè es poden considerar opcionals, com el fax o l'email, o informació sobre l'adreça que poden no existir en algun tipus de vivenda o oficina (pis, porta, ...).
+La gran majoria dels camps de les taules tenen la clàusula NOT NULL. S'han deixat uns quants sense aquesta marca perquè es poden considerar opcionals, com el fax, o informació sobre l'adreça que poden no existir en algun tipus de vivenda o oficina (pis, porta, ...).
 
 Exercici 2: pizzeria_model
 
